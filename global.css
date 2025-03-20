@@ -1,0 +1,132 @@
+body {
+  background-color: #3f612d;
+  height: 100%;
+}
+
+.home {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+}
+
+.title h1 {
+  font-size: 8vw;
+  font-weight: bold;
+  color: #f6d4ba;
+  text-shadow: 0.25vw 0.25vw 1.5vw #f3b391;
+}
+
+.title p {
+  color: #f6d4ba;
+}
+
+.userInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.userInput input {
+  background-color: #f3b391;
+  padding: 1em;
+  font-size: 1.5vw;
+  border-radius: 3rem;
+  border: none;
+  color: #f6d4ba;
+  outline: none;
+}
+
+.userInput input::placeholder {
+  color: #f6d4ba;
+}
+
+.userInput button {
+  background-color: #f3b391;
+  padding: 1em;
+  font-size: 1.5vw;
+  border-radius: 3rem;
+  border: none;
+  cursor: pointer;
+  color: #f6d4ba;
+}
+
+.userInput button:hover {
+  scale: 1.1;
+}
+
+.userInput button:active {
+  scale: 0.95;
+}
+
+.displayMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#wordInfoContainer {
+  height: 100%;
+  width: 90vw;
+  background-color: #f3b391;
+  margin-top: 2rem;
+  border-radius: 3rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.displayContainer {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.word {
+  color: #f6d4ba;
+  font-size: 2vw;
+}
+
+.error {
+  color: #f6d4ba;
+  font-size: 2vw;
+}
+
+.definitionsMain {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.definitionContainer {
+  height: 100%;
+  font-size: 1.5vw;
+  padding: 0.25rem;
+  border: 0.25rem solid black;
+  border-radius: 0.5rem;
+}
+
+.synonymsMain {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.synonymContainer {
+  height: 100%;
+  font-size: 1.5vw;
+  padding: 0.25rem;
+  border: 0.25rem solid black;
+  border-radius: 0.5rem;
+}
